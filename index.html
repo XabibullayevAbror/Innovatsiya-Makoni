@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Abror" tomonidan yaratilgan>
+    <title>Innovatsiya Makoni</title>
+    <style>
+      #gameCanvas{
+         background-color: #eee;
+         display: flex;
+         margin: 0 auto;
+      }
+  </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <header>
+            <h1>Innovatsiya Makoniga Xush Kelibsiz</h1>
+            <img src="./IT-logo-design-vector-Graphics-20820351-1-1-580x386-removebg-preview.png" alt="">
+            <nav>
+               <ul>
+                  <li><a href="#about">Men Haqimda</a></li>
+                  <li><a href="#projects">Loyihalarim</a></li>
+                  <li><a href="#contact">Aloqa</a></li>
+                  <li><a href="#game">O'yinlar</a></li>
+               </ul>
+            </nav>
+      </header>
+
+      <section id="about">
+           <h2>Men Haqimda</h2>
+           <p>Assalomu alaykum! Mening Ismim Abror, IT sohasida rivojlanayotgan mutaxassisman.</p>
+      </section>
+
+      <section id="projects">
+           <h2>Loyihalarim</h2>
+           <div class="project">
+              <img src="./photo_2024-06-06_19-30-51.jpg" alt="" class="responsive-img">
+              <h3>Loyiha 1</h3>
+              <p>Bu rasmni men o'zim yasaganman to'g'ri men hali IT sohasida o'qiyotkanimga 1 yil ham bo'lgani yo'q lekin men bu narsani oldindan o'rgandim</p>
+           </div>
+
+           <div class="project">
+            <img src="./photo_2024-06-21_16-42-31.jpg" alt="" class="img-container">
+            <h3>Loyiha 2</h3>
+            <p>Bularni barchasini o'zim 3 oyni ichida o'rgandim</p>
+         </div>
+      </section>
+
+      <section id="contact">
+             <h2>Menga Aloqaga Chiqing</h2>
+             <form>
+                  <label for="name">Ismingiz</label>
+                  <input type="text" id="name" name="name" required>
+
+                  <label for="email">Elektron Pochtangiz</label>
+                  <input type="email" id="email" name="email" required>
+
+                  <input type="submit" value="Yuborish">
+             </form>
+      </section>
+
+      <footer>
+         <p>2024 Innovatsiya Makoni. Barcha huquqlar himoyalangan.</p>
+      </footer>
+
+      <s src="script.js"></script>
+
+<header>
+   <h1>Saytimdagi O'yinlar</h1>
+   <nav>
+       <ul>
+           <li><a href="#game1">Oddiy O'yin</a></li>
+           <li><a href="#game2">Viktorina</a></li>
+           <li><a href="#game3">Ball Bounce O'yini</a></li>
+       </ul>
+   </nav>
+</header>
+
+<section id="game1">
+   <h2>Oddiy O'yin</h2>
+   <canvas id="gameCanvas" width="480" height="320"></canvas>
+</section>
+
+<section id="game2">
+   <h2>Viktorina O'yini</h2>
+   <div id="quiz"></div>
+   <button id="startQuiz">Boshlash</button>
+</section>
+
+<script src="script.js"></script>
+
+<h1>Ball Bounce O'yini</h1>
+
+<section id="game">
+   <canvas id="gameCanvas" width="480" height="320"></canvas>
+</section>
+
+<script src="game.js"></script>
+</body>
+</html>
